@@ -105,6 +105,7 @@ const styles = StyleSheet.create({
     color:'#000000',
   },
   titleList:{
+    width:wp(90),
     flexDirection:'row',
     alignItems:'center',
   },
@@ -158,6 +159,7 @@ const styles = StyleSheet.create({
     fontSize: wp(4),
     fontWeight: 'bold',
     marginBottom: 10,
+    marginLeft:wp(1),
     color: '#000000',
   },
 });
