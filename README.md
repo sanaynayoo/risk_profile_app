@@ -70,7 +70,8 @@ This React Native app helps determine a user's risk profile based on a set of qu
     yarn test
     ```
 
-### Reach me:
+### Reach me at:
 
-- **GitHub**: [SA NAY NAY OO ( theo )](https://github.com/sanaynayoo)
-- **LinkedIn**: [SA NAY NAY OO ( theo )](https://www.linkedin.com/in/sanaynayoo/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanaynayoo/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanaynayoo/)
