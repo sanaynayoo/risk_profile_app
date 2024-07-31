@@ -72,5 +72,5 @@ This React Native app helps determine a user's risk profile based on a set of qu
 
 ### Reach me:
 
-- **GitHub**: `[SA NAY NAY OO ( theo )](https://github.com/sanaynayoo)`
-- **LinkedIn**: `[SA NAY NAY OO ( theo )](https://www.linkedin.com/in/sanaynayoo/)`
+- **GitHub**: [SA NAY NAY OO ( theo )](https://github.com/sanaynayoo)
+- **LinkedIn**: [SA NAY NAY OO ( theo )](https://www.linkedin.com/in/sanaynayoo/)
