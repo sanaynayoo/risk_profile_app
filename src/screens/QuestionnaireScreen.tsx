@@ -1,8 +1,7 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {
   View,
   Text,
-  Button,
   StyleSheet,
   TouchableOpacity,
   ScrollView,
@@ -17,7 +16,7 @@ import {
 // reduxs
 import {useDispatch, useSelector} from 'react-redux';
 import { RootState} from '../store';
-import { setAnswer, calculateScore } from '../store/store'; // Adjust path as needed
+import { setAnswer, calculateScore } from '../store/store';
 
 
 // navigation

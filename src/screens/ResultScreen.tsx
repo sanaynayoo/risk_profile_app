@@ -1,49 +1,23 @@
 import React from 'react';
-import {
-  View,
-  Text,
-  Button,
-  StyleSheet,
-  TouchableOpacity,
-  ScrollView,
-} from 'react-native';
-import {useNavigation} from '@react-navigation/native';
-import {StackNavigationProp} from '@react-navigation/stack';
-import {
-  widthPercentageToDP as wp,
-  heightPercentageToDP as hp,
-} from 'react-native-responsive-screen';
+import { View,Text,StyleSheet,ScrollView} from 'react-native';
+import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
 
 // redux
 import {useSelector} from 'react-redux';
-
-// navigation
-import {RootStackParamList} from '../navigations/AppNavigator';
+import {RootState} from '../store';
 
 // icons
 import User from '../../assets/icons/User';
 import Ticket from '../../assets/icons/Ticket';
-import {RootState} from '../store';
-import Logout from '../../assets/icons/Logout';
 import {QuestionDemo} from '../utils/data/QuestionDemo';
 import AnswerArrow from '../../assets/icons/AnswersArrow';
-import List from '../../assets/icons/List';
 import Shield from '../../assets/icons/Shield';
 
-type ResultScreenNavigationProp = StackNavigationProp<
-  RootStackParamList,
-  'Result'
->;
-
 const ResultScreen = () => {
-  const navigation = useNavigation<ResultScreenNavigationProp>();
   const score = useSelector((state: RootState) => state.questionnaire.score);
-  const profile = useSelector(
-    (state: RootState) => state.questionnaire.profile,
-  );
-  const answers = useSelector(
-    (state: RootState) => state.questionnaire.answers,
-  );
+  const profile = useSelector((state: RootState) => state.questionnaire.profile);
+  const answers = useSelector((state: RootState) => state.questionnaire.answers);
+
   return (
     <View style={styles.container}>
       <View style={styles.profileContainer}>
